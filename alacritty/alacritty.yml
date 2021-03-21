@@ -1,51 +1,57 @@
-# Colors (Ayu Dark)
+# Base16 Gruvbox dark, hard 256 - alacritty color config
+# Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
 colors:
-  # Default colors
-  primary:
-    background: '#0A0E14'
-    foreground: '#B3B1AD'
+ # Default colors
+ primary:
+  background: '0x1d2021'
+  foreground: '0xd5c4a1'
 
-  # Normal colors
-  normal:
-    black: '#01060E'
-    red: '#EA6C73'
-    green: '#91B362'
-    yellow: '#F9AF4F'
-    blue: '#53BDFA'
-    magenta: '#FAE994'
-    cyan: '#90E1C6'
-    white: '#C7C7C7'
+ # Colors the cursor will use if `custom_cursor_colors` is true
+ cursor:
+  text: '0x1d2021'
+  cursor: '0xd5c4a1'
 
-  # Bright colors
-  bright:
-    black: '#686868'
-    red: '#F07178'
-    green: '#C2D94C'
-    yellow: '#FFB454'
-    blue: '#59C2FF'
-    magenta: '#FFEE99'
-    cyan: '#95E6CB'
-    white: '#FFFFFF'
+ # Normal colors
+ normal:
+  black: '0x1d2021'
+  red: '0xfb4934'
+  green: '0xb8bb26'
+  yellow: '0xfabd2f'
+  blue: '0x83a598'
+  magenta: '0xd3869b'
+  cyan: '0x8ec07c'
+  white: '0xd5c4a1'
+
+ # Bright colors
+ bright:
+  black: '0x665c54'
+  red: '0xfb4934'
+  green: '0xb8bb26'
+  yellow: '0xfabd2f'
+  blue: '0x83a598'
+  magenta: '0xd3869b'
+  cyan: '0x8ec07c'
+  white: '0xfbf1c7'
 
 # Font configuration (changes require restart)
 font:
-  # The normal (roman) font face to use.
-  normal:
-    family: Source Code Pro
-    # Style can be specified to pick a specific face.
-    style: Regular
+ # The normal (roman) font face to use.
+ normal:
+  family: Fira Code
+  # Style can be specified to pick a specific face.
+  style: Semi-Condensed
 
-  # The bold font face
-  bold:
-    family: Hack
-    # Style can be specified to pick a specific face.
-    # style: Bold
+ # The bold font face
+ bold:
+  family: Hack
+  # Style can be specified to pick a specific face.
+  # style: Bold
 
-  # The italic font face
-  italic:
-    family: Hack
-    # Style can be specified to pick a specific face.
-    # style: Italic
+ # The italic font face
+ italic:
+  family: Hack
+  # Style can be specified to pick a specific face.
+  # style: Italic
 
-  size: 13.0
-  # size: 20.0
+ size: 16.0
+ # size: 22.0
