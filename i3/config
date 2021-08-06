@@ -13,9 +13,11 @@ exec --no-startup-id xsettingsd &
 exec --no-startup-id dunst
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf 
 # exec_always --no-startup-id feh --bg-fill '/home/anjan/Cules/Cules YouTube Banner Template.jpg'  
-exec_always --no-startup-id feh --bg-fill '/home/anjan/wallpapers/used/nebula_1.jpg'
+exec_always --no-startup-id feh --bg-fill '/home/anjan/wallpapers/used/nature_1.jpg'
+# exec_always --no-startup-id feh --bg-fill '/home/anjan/wallpapers/used/motivation_13.jpg'
+# exec_always  /home/anjan/shell_scripts/styli.sh/styli.sh -s "dark"
 
-# exec_always --no-startup-id feh --bg-fill '/home/anjan/wallpapers/used/tw_3.jpg'
+# exec_always --no-startup-id feh --bg-fill '/home/anjan/wallpapers/taylor swift/ts_2.png'
 # exec --no-startup-id polybar example
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always amixer
@@ -36,6 +38,7 @@ bindsym $super+Shift+f exec firefox-developer-edition
 bindsym $super+Shift+g exec geany
 bindsym $super+Shift+n exec dolphin
 bindsym $super+alt+r exec ranger 
+bindsym $super+m exec kdenlive
 
 #change volume
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 5%+
